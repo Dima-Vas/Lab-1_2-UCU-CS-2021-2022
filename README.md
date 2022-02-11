@@ -16,7 +16,7 @@ pip install geopy
 pip install folium
 
 # Usage
-returns (e.g. 49.83826,24.02324)
+returns (49.83826,24.02324)
 >>> from  geopy.geocoders import Nominatim
 >>> geolocator = Nominatim(user_agent="MyApp")
 >>> loc = geolocator.geocode("Ukrainian Catholic University, L'viv Oblast, L'viv, Ukraine")
